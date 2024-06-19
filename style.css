@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff !important;
+}
+.border{
+  border: 3px solid #fff;
+}
+body{
+  background: #000;
+}
+ul.dropdown-menu li a{
+  color: blue !important;
+
+}
+.mainPage{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 600px;
+  margin-top: 250px;
+  width: 500px;
+  height: 300px;
+  margin-left: 200px;
+  text-align: center;
+
+}
+/* div btn Eited */
+.mainPage .btns h1{
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainPage .btns .btnSs{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.mainPage .btns .btnSs .button{
+  width: 200px;
+  height: 40px;
+}
+.imgCar{
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 800px;
+  animation: sizeChange 1.65s ease-in-out forwards;
+  transition: 0.7s;
+
+  
+}
+
+
+@keyframes sizeChange {
+  0% {
+      width: 800px; /* Initial width */
+      
+  }
+  50% {
+      width: 500px; /* Incremented width */
+  }
+  100% {
+      width: 800px; /* Decremented width */
+  }
+}
+
+
+.bgimg{
+  background-color: transparent;
+  width: 550px;
+  height: 500px;
+  border: 5px solid #0d35b8;
+  position: absolute;
+  top: 120px;
+  right: 75px;
+  transform: rotate(45deg);
+}
+.bgimg:hover{
+  background-color: #0d35b8;
+}
