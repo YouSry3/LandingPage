@@ -26,6 +26,13 @@ form h3{
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  }
+  form h3 .fa-globe{
+    margin-right: 2px;
+    margin-top: 3px;
+    
   }
 
 form .buttton{
