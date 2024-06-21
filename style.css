@@ -40,7 +40,7 @@ form .buttton{
   transition: 0.5s;
 }
 form .buttton:hover{
-  font-size: 1.1rem !important;
+  font-size: 1.0rem !important;
 }
 .mainPage{
   
@@ -141,6 +141,7 @@ a.nav-link{
   font-size: 2.8rem;
 
 }
+
 
 
 
